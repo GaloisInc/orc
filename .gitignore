@@ -1,0 +1,15 @@
+dist/
+cabal-dev
+dist
+*.swp
+*~
+*.hi
+*.o
+setup
+doc/hsorc.aux
+doc/hsorc.dvi
+doc/hsorc.log
+doc/hsorc.pdf
+doc/hsorc.ps
+doc/hsorc.tex
+.DS_Store
