@@ -18,7 +18,7 @@ Library
                     stm     >= 2.2.0.0,
                     process >= 1.0.1.0,
                     mtl     >= 2.0.1.0,
-                    monadIO >= 0.10.1.1
+                    monadIO >= 0.10.1.1,
                     deepseq >= 1.1.0.0
   Exposed-modules:  Control.Concurrent.Hierarchical
                     Orc.Monad
@@ -38,8 +38,9 @@ Executable orc
                     mtl     >= 2.0.1.0,
                     monadIO >= 0.10.1.1,
                     deepseq >= 1.1.0.0,
-                    random
-  hs-source-dirs:   src src/Examples
+                    random,
+                    orc
+  hs-source-dirs:   src/Examples
   Ghc-Options:      -threaded
   if (impl(ghc >= 7))
     CPP-Options:    -D__GHC_BLOCK_DEPRECATED__
