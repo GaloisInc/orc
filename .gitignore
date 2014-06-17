@@ -13,3 +13,5 @@ doc/hsorc.pdf
 doc/hsorc.ps
 doc/hsorc.tex
 .DS_Store
+.cabal-sandbox
+cabal.sandbox.config
